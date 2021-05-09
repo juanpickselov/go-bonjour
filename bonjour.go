@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
-
-import "rsc.io/quote"
+import ("fmt"
+		"rsc.io/quote"
+		"github.com/juanpickselov/go-bonjour/morestrings"
+)
 
 func main() {
-	fmt.Println("\n" + quote.Go(),"\nBonjour tout le monde!")
+	gsm := morestrings.ReverseRunes("accorD hondA")
+
+	fmt.Println("\n" + quote.Go(),"\nBonjour tout le monde!", "\n" + gsm)
 }
