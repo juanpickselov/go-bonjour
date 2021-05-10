@@ -7,6 +7,8 @@ import ("fmt"
 
 func main() {
 	gsm := morestrings.ReverseRunes("accorD hondA")
+	fmt.Println(gsm)
 	fmt.Println(morestrings.ReverseRunes("corollA"))
-	fmt.Println("\n" + quote.Go(),"\nBonjour tout le monde!", "\n" + gsm)
+	fmt.Println("Bonjour tout le monde!")
+	fmt.Println(quote.Go())
 }
