@@ -1,8 +1,9 @@
 package main
 
-import ("fmt"
-		"rsc.io/quote"
-		"github.com/juanpickselov/go-bonjour/morestrings"
+import (
+	"fmt"
+	"github.com/juanpickselov/go-bonjour/morestrings"
+	"rsc.io/quote"
 )
 
 func main() {
