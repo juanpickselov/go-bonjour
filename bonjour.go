@@ -11,5 +11,6 @@ func main() {
 	fmt.Println(gsm)
 	fmt.Println(morestrings.ReverseRunes("corollA"))
 	fmt.Println("Bonjour tout le monde!")
+	fmt.Println("你 好")
 	fmt.Println(quote.Go())
 }
