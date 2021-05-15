@@ -21,5 +21,5 @@ func main() {
 
 	var _1åœπbool = 10
 
-	fmt.Printf("%T\t%T\t%T\t%T\t%T\t%T\t%T\t%T\n", a, b, c, d, e, f, g, _1åœπbool)	
+	fmt.Printf("%T\t%T\t%T\t%T\t%T\t%T\t%T\t%T\n", a, b, c, d, e, f, g, _1åœπbool)
 }

@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-
 	"github.com/moficodes/go-crash-course/exporting/print"
 )
 
