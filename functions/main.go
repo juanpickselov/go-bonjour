@@ -68,6 +68,6 @@ func Bill(tax float64, items ...float64) (total float64) {
 		total += item
 	}
 
-	total *= (1 + tax*.01)
+	total *= 1 + tax*.01
 	return
 }
