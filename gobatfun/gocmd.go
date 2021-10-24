@@ -9,8 +9,7 @@ import (
 func main() {
 	var scriptToRun = `{Get-TimeZone; Write-Host 'blah'}`
 
-	cmd := exec.Command("cmd.exe", "/C", "start", "la dee dah", "powershell.exe", "-NoExit", "-Command", "& "+scriptToRun+";Read-Host 'Please hit enter to exit'; exit")
-	// cmd := exec.Command("cmd.exe", "/C", "start", "", "powershell.exe", "-NoExit", "-Command", "& "+scriptToRun)
+	cmd := exec.Command("cmd.exe", "/C", "start", "PShell Example", "powershell.exe", "-NoExit", "-Command", "& "+scriptToRun+";Read-Host 'Please hit enter to exit'; exit")
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stdout
 
