@@ -2,11 +2,17 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"juanpickselov/greeter"
 )
 
 func main() {
-	message := greeter.Greet("Juan")
+	log.SetPrefix("greeter: ")
+	log.SetFlags(0)
+
+	message, err := greeter.Greet("Juan")
+	if err != nil {
+		log.Fatal(err)
+	}
 	fmt.Println(message)
 }
-
