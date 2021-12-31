@@ -1,5 +1,5 @@
 package print
 
-var data = "Bonjour"
+var Data = "Bonjour"
 
 var Number = 1
