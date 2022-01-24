@@ -20,7 +20,7 @@ func Start(args ...string) (p *os.Process, err error) {
 
 func main() {
 	//"DIR C:\\zFylz"
-	if proc, err := Start("notepad.exe"); err == nil {
+	if proc, err := Start("C:\\zUtils\\conemu\\ConEmu64.exe"); err == nil {
 		proc.Release()
 	}
 }
