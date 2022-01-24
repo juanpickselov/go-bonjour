@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"os"
 	"os/exec"
@@ -15,5 +16,8 @@ func main() {
 
 	if err := cmd.Run(); err != nil {
 		fmt.Println("Error:", err)
+	}
+	if err := cmd.Process.Release(); err != nil {
+		fmt.Println(errors.New("Error releasing process"))
 	}
 }
